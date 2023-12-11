@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+</head>
+<body>
+<h1>Shopping List</h1>
+<ul id="shoppingList">
+    <!-- The shopping list will be dynamically populated here -->
+</ul>
+<form id="addItemForm">
+    <input type="text" id="itemName" placeholder="Item name" required>
+    <button type="button" onclick="addItem()">Add Item</button>
+</form>
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="/js/shopping.js"></script>
+</body>
+</html>
